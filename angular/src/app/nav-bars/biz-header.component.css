@@ -1,0 +1,22 @@
+.toolbar-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .logo-text {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .logo-text:hover {
+    cursor: pointer;
+  }
+  
+  .logo {
+    object-fit: contain;
+    height: 110px;
+    margin-right: 10px;
+  }
+
+  .premium {
+    display: inline;
+}

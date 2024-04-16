@@ -1,0 +1,71 @@
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile-picture {
+  margin-right: 20px;
+}
+
+.profile-details {
+  flex: 1; 
+}
+
+.profile-summary,
+.profile-experience {
+  margin-top: 10px;
+}
+
+.add-experience {
+  align-items: center;
+  cursor: pointer;
+}
+
+.upgrade-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: bisque;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.profile-picture {
+  display: flex;
+  flex-direction: column;
+}
+
+.res-icon {
+  position: absolute;
+  right: 15px;
+  background-color: rgb(68, 68, 183);
+  color: white; 
+  width: 200px;
+}
+
+.skills-icon {
+  position: absolute;
+  right: 15px;
+  background-color: rgb(68, 68, 183);
+  color: white; 
+  width: 90px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.short-divider {
+  width: 70%; 
+  margin: 0 auto; 
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the circular area */
+  object-position: center; /* Centers the image within the circular area */
+  order: 1;
+}

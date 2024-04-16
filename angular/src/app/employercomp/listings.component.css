@@ -1,0 +1,61 @@
+
+  .action-icon:hover {
+    cursor: pointer;
+  }
+
+  .upgrade-button {
+    background-color: bisque;
+    border-radius: 10px; 
+    padding: 10px 10px;
+  }
+
+  .title-column {
+    width: 35%; 
+  }
+  
+  .company-name-column {
+    width: 20%;
+  }
+  
+  .location-column {
+    width: 15%;
+  }
+  
+  .period-column {
+    width: 15%;
+  }
+
+  .background-container {
+    background-image: url('/assets/images/bluebg.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed; 
+    top: 100px;
+    right:10px;
+    z-index: -1;
+    opacity: 0.9;
+  }
+
+  .mat-elevation-z8 {
+    z-index: 2; 
+    background-color: rgba(255, 255, 255, 0.1); 
+  }
+
+  .company-name-cell {
+    padding: 8px 16px; 
+  }
+  
+  .reach-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .notification-bubble {
+    margin-right: 8px;
+  }
+  .title-underlined {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }

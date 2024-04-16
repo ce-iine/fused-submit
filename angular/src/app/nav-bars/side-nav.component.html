@@ -1,0 +1,17 @@
+<mat-sidenav-container autosize>
+
+    <mat-sidenav mode="side" [opened]="true">
+
+        <app-side-nav-list (toggleMenu)="toggleMenu()" [isMenuShown]="isMenuExpanded"
+            [sideNavRoutes]="sideNavRoutes">
+        </app-side-nav-list>
+        
+    </mat-sidenav>
+
+    <mat-sidenav-content [style.margin-left.px]="!isMenuExpanded ? 60 : 150">
+        <div class="content-container">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-sidenav-content>
+
+</mat-sidenav-container>

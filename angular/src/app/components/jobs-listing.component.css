@@ -1,0 +1,142 @@
+.job-search-form {
+  margin-top: 30px;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2); /* Background color with 50% opacity */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.job-openings-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.job-type-select {
+  margin-right: 10px;
+  flex: 300px; /* Adjust the width as needed */
+  opacity: 0.9;
+}
+
+.tag-select {
+  margin-right: 10px;
+  height: 50%;
+  width: 50%;
+}
+
+.tag-select .mat-form-field-infix {
+  padding: 0 8px; /* Adjust padding as needed */
+}
+
+button[type="submit"],
+button[type="button"] {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+button[type="button"] {
+  background-color: rgb(129, 152, 205);
+  color: white;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.job-openings-header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.job-openings-header p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.title-column,
+.company-name-column,
+.job-type-column,
+.location-column,
+.period-column {
+  text-overflow: ellipsis; /* Display ellipsis when text overflows */
+}
+
+.title-column {
+  width: 37%; 
+}
+
+.company-name-column {
+  width: 18%;
+}
+
+.job-type-column {
+  width: 13%;
+}
+
+.location-column {
+  width: 20%;
+}
+
+.period-column {
+  width: 12%;
+}
+
+.blue-underlined {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.blue-underlined:hover {
+  text-decoration: none; 
+}
+
+.title-underlined {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nosearch {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title-underlined:hover {
+  text-decoration: none; 
+}
+
+.promoted-icon {
+  color: rgb(255, 204, 0); 
+}
+
+.background-container {
+  background-image: url('/assets/images/listings.png');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed; 
+  top: 60px;
+  left: 80px;
+  z-index: -1;
+  opacity: 0.15;
+}
+
+.mat-elevation-z8 {
+  margin-top: -60px;
+  position: relative; 
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.3); 
+}
+
+.tag-container {
+  white-space: wrap; 
+}
+
+.tag {
+  display: inline-block; 
+  margin-right: 5px; 
+}

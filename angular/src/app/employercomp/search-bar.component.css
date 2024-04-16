@@ -1,0 +1,10 @@
+.custom-input{
+  margin-right: 10px;
+  flex: 1 1 600px;
+}
+
+.job-search-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

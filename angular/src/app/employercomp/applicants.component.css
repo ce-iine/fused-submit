@@ -1,0 +1,98 @@
+.job-details {
+    display: flex; /* Use flexbox to align items horizontally */
+  }
+  
+  .job-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    align-items: center;
+  }
+  
+  .applicant-list {
+  flex: 1; /* Allow form section to take up remaining space */
+  }
+
+  .title {
+    font-weight: bolder;
+    padding-bottom: 20px;
+  }
+  
+  .application-card {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 25px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .login-card {
+      width: 100%;
+    }
+  }
+  
+  .user-type-radio {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .login-form {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-control {
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  .invalid-message {
+    padding-bottom: 10px;
+    color: red;
+  }
+  
+  .invalid {
+    color: red;
+    font-weight: bolder;
+  }
+  
+  .valid {
+    color: green;
+    font-weight: bolder;
+  }
+  
+  .upload-file-container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .upgrade-button {
+    background-color: bisque;
+    border-radius: 10px; /* Makes the button rounder */
+    padding: 10px 10px; /* Add padding to adjust button size */
+  }
+
+  .applicant-card {
+    margin-bottom: 20px; /* Adjust this value as needed */
+    padding: 10px;
+    border: 1px solid #ddd; /* Optional: Add a border for visual separation */
+  }
+
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circular area */
+    object-position: center; /* Centers the image within the circular area */
+    order: 1;
+  }

@@ -1,0 +1,56 @@
+.custom-card {
+  max-width: auto;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  background-color: #f9f9f9; 
+}
+
+.dialog-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #333; 
+}
+
+.dialog-footer {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 20px;
+}
+
+.discount {
+  text-decoration: line-through;
+  color: red;
+}
+
+.promoted-icon {
+  color: rgb(255, 204, 0); 
+  vertical-align: middle;
+  margin-right: 5px; 
+}
+
+button.mat-raised-button {
+  background-color: #1976d2; 
+  color: white;
+  border-radius: 4px;
+  padding: 10px 20px; 
+  font-size: 16px;
+  transition: background-color 0.3s ease; 
+}
+
+button.mat-raised-button:hover {
+  background-color: #125699; 
+}
+
+.dialog-container p,
+.dialog-container li {
+  font-size: 20px; 
+  line-height: 1.5;
+}

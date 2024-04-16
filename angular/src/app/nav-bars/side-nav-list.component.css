@@ -1,0 +1,45 @@
+.toggle {
+    width: 100%;
+    display: flex;
+    padding: 10px 10px;
+  }
+  
+  .toggle:hover {
+    cursor: pointer;
+  }
+  
+  .item {
+    user-select: none;
+    background: transparent;
+  }
+  
+  .item:hover {
+    cursor: pointer;
+    border-left: solid 3px var(--mat-badge-background-color);
+  }
+  
+  .item-selected {
+    background-color: #e9f5f5;
+    border-left: solid 3px #673ab7;
+  }
+  
+  mat-icon {
+    color: var(--mat-badge-background-color);
+  }
+  
+  .route-name {
+    padding: 0 20px;
+  }
+
+  .red-text {
+    color: red !important;
+  }
+  
+  .notification-bubble {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 10px;
+  }
